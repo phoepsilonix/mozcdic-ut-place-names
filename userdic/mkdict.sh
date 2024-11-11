@@ -9,7 +9,7 @@ python generate_place_names.py
 tar cf ../release/${SYSTEMDIC}.tar ${SYSTEMDIC}.txt ../LICENSE
 bzip2 -9 ../release/${SYSTEMDIC}.tar
 
-curl -LO https://github.com/phoepsilonix/dict-to-mozc/releases/download/v0.4.6/dict-to-mozc-x86_64-unknown-linux-gnu.tar.gz
+curl -LO https://github.com/phoepsilonix/dict-to-mozc/releases/download/v0.5.0/dict-to-mozc-x86_64-unknown-linux-gnu.tar.gz
 tar xf dict-to-mozc-x86_64-unknown-linux-gnu.tar.gz --strip-component=1
 
 curl -LO https://github.com/google/mozc/raw/refs/heads/master/src/data/dictionary_oss/id.def
